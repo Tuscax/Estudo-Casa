@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-[#f7f4eb]">
+    <header class="flex flex-row  justify-between py-4 px-20 bg-green-950 border-green-950 z-99 top-0 sticky">
+        <img src="assets/7bc359f5272de8852f79eacfea6ccec64bc81530.svg" class="size-8">
+        <div class="flex flex-row gap-6 text-white">
+            <p>Services</p>
+            <p>Schedule a Consult</p>
+        </div>
+    </header>
+    <main>
+        <!-- Depois ajeitar a bosta da distancia do caralho do h2 e h3, faço isso dps agora estou quase chorando.
+         ODEIO TAILWIND -->
+
+        <section> <!-- jones Brown -->
+            <div class="bg-black h-screen w-screen absolute top-16 z-1 opacity-35"></div>
+            <div class="bg-[url(/assets/twoWomen.jpeg)] bg-cover bg-center h-screen flex relative ">
+                <div class="flex flex-col justify-end p-15 h-screen z-10">
+                    <div class="">
+                        <h1 class="text-9xl  text-white font-semibold mb-20">Jones & Brown Legal</h1>
+                        <div class=" flex flex-row justify-between">
+                            <h2 class="text-4xl text-white font-semibold">Deep expertise, decisive courtroom presence
+                            </h2>
+                            <h3 class="text-xl text-white font-semibold w-96 ">We've been serving the Los Angeles area
+                                with expert legal counsel since 1976.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section><!-- Schedule -->
+            <div class="mt-40 pl-36 pr-46 ">
+                <h2 class="font-semibold text-3xl ">Welcome to Jones & Brown Legal</h2>
+                <div class="flex flex-row mt-10 gap-12 w-4xl text-[18px]">
+                    <p class="text-wrap">Jones & Brown Legal has been a pillar of the LosAngeles legal community,
+                        providing expert legal
+                        counsel across a wide spectrum of practice areas. We are more than just attorneys, we are
+                        trusted
+                        advisors, dedicated advocates, and strategic partners committed to achieving the best possible
+                        outcomes for our clients.</p>
+                    <p class="text-wrap">We combine decades of experience with a deep understanding of the complexities
+                        of California law. Our
+                        team of seasoned trial attorneys boasts a proven track record of success in courtrooms
+                        throughout
+                        Los Angeles and beyond. We pride ourselves on our comprehensive expertise, covering nearly every
+                        field of law, ensuring that whatever your legal challenge, we have the knowledge and experience
+                        to
+                        guide you.</p>
+                </div>
+                <button class="mt-10 bg-amber-950 hover:bg-black duration-500 hover:scale-110 p-5 py-4 rounded-4xl text-white mb-40">Schedule a Consult</button>
+            </div>
+        </section>
+        <img src="assets/dark-academia.jpg" alt="" class="w-screen bg-cover">
+    </main>
+</body>
+
+</html>
